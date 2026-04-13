@@ -13,8 +13,6 @@ import {
   Code2 as GithubIcon,
   Link2,
   AtSign,
-  Share2,
-  Globe,
 } from "lucide-react";
 
 const contactInfo = [
@@ -25,11 +23,9 @@ const contactInfo = [
 ];
 
 const socials = [
-  { name: "GitHub", icon: GithubIcon, href: "#" },
-  { name: "LinkedIn", icon: Link2, href: "#" },
-  { name: "Twitter", icon: AtSign, href: "#" },
-  { name: "Instagram", icon: Share2, href: "#" },
-  { name: "Portfolio", icon: Globe, href: "#" },
+  { name: "GitHub", icon: GithubIcon, href: "https://github.com/aneesa319" },
+  { name: "LinkedIn", icon: Link2, href: "https://www.linkedin.com/in/aneesa-inayat" },
+  { name: "Twitter / X", icon: AtSign, href: "https://x.com/AInayat13400" },
 ];
 
 const faqs = [
@@ -102,13 +98,13 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-sm font-medium mb-1.5">Your Name</label>
                       <input type="text" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-600 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 transition-all text-sm"
+                        className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-500 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 transition-all text-sm"
                         placeholder="John Doe" required />
                     </div>
                     <div>
                       <label className="block text-sm font-medium mb-1.5">Your Email</label>
                       <input type="email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-600 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 transition-all text-sm"
+                        className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-500 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 transition-all text-sm"
                         placeholder="john@example.com" required />
                     </div>
                   </div>
@@ -116,7 +112,7 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-sm font-medium mb-1.5">Subject</label>
                       <input type="text" value={formData.subject} onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-                        className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-600 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 transition-all text-sm"
+                        className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-500 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 transition-all text-sm"
                         placeholder="Project Inquiry" required />
                     </div>
                     <div>
@@ -134,7 +130,7 @@ export default function ContactPage() {
                   <div>
                     <label className="block text-sm font-medium mb-1.5">Message</label>
                     <textarea rows={5} value={formData.message} onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-600 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 transition-all text-sm resize-none"
+                      className="w-full px-4 py-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 text-gray-900 dark:text-white placeholder-gray-500 dark:placeholder-gray-500 focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-500/20 transition-all text-sm resize-none"
                       placeholder="Tell me about your project..." required />
                   </div>
                   <button type="submit" className="w-full flex items-center justify-center gap-2 py-3.5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl text-white font-semibold hover:shadow-lg hover:shadow-purple-500/25 transition-all">

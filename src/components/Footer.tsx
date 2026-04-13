@@ -12,7 +12,6 @@ import {
   Code2,
   Link2,
   AtSign,
-  Globe,
 } from "lucide-react";
 
 const quickLinks = [
@@ -25,10 +24,9 @@ const quickLinks = [
 ];
 
 const socials = [
-  { name: "GitHub", icon: Code2, href: "#" },
-  { name: "LinkedIn", icon: Link2, href: "#" },
-  { name: "Twitter", icon: AtSign, href: "#" },
-  { name: "Website", icon: Globe, href: "#" },
+  { name: "GitHub", icon: Code2, href: "https://github.com/aneesa319" },
+  { name: "LinkedIn", icon: Link2, href: "https://www.linkedin.com/in/aneesa-inayat" },
+  { name: "Twitter", icon: AtSign, href: "https://x.com/AInayat13400" },
 ];
 
 export default function Footer() {

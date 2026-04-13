@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bl-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Browser Chrome -->
+  <rect width="800" height="450" rx="8" fill="#0c0f1a"/>
+  <rect width="800" height="32" rx="8" fill="#151929"/>
+  <rect x="0" y="24" width="800" height="8" fill="#151929"/>
+  <circle cx="16" cy="16" r="5" fill="#ff5f57"/>
+  <circle cx="34" cy="16" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="16" r="5" fill="#28c840"/>
+  <rect x="200" y="8" width="400" height="18" rx="9" fill="#0c0f1a" opacity="0.6"/>
+  <text x="400" y="21" text-anchor="middle" fill="#888" font-family="system-ui" font-size="9">inkwell.cms/editor</text>
+
+  <!-- Top Nav -->
+  <rect x="0" y="32" width="800" height="42" fill="#10142a"/>
+  <text x="20" y="58" fill="#818cf8" font-family="system-ui" font-weight="bold" font-size="15">Inkwell</text>
+  <text x="100" y="58" fill="#6b7280" font-family="system-ui" font-size="11">Posts</text>
+  <text x="150" y="58" fill="#6b7280" font-family="system-ui" font-size="11">Pages</text>
+  <text x="200" y="58" fill="#6b7280" font-family="system-ui" font-size="11">Media</text>
+  <text x="260" y="58" fill="#6b7280" font-family="system-ui" font-size="11">Comments</text>
+
+  <rect x="650" y="43" width="70" height="26" rx="13" fill="url(#bl-accent)"/>
+  <text x="685" y="60" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" font-weight="600">Publish</text>
+  <rect x="730" y="43" width="50" height="26" rx="13" fill="#1e2345"/>
+  <text x="755" y="60" text-anchor="middle" fill="#6b7280" font-family="system-ui" font-size="10">Draft</text>
+
+  <!-- Left Sidebar - Article List -->
+  <rect x="0" y="74" width="240" height="376" fill="#10142a"/>
+  <rect x="0" y="74" width="240" height="36" fill="#151929"/>
+  <text x="16" y="96" fill="#e2e8f0" font-family="system-ui" font-size="11" font-weight="bold">All Posts</text>
+  <rect x="170" y="82" width="60" height="20" rx="10" fill="#4f46e5"/>
+  <text x="200" y="96" text-anchor="middle" fill="white" font-family="system-ui" font-size="9">+ New</text>
+
+  <!-- Search -->
+  <rect x="12" y="118" width="216" height="24" rx="12" fill="#1e2345"/>
+  <text x="28" y="134" fill="#475569" font-family="system-ui" font-size="9">Search posts...</text>
+
+  <!-- Article List Items -->
+  <!-- Active Article -->
+  <rect x="0" y="150" width="240" height="62" fill="#1e2345"/>
+  <rect x="0" y="150" width="3" height="62" fill="#4f46e5"/>
+  <text x="16" y="170" fill="#e2e8f0" font-family="system-ui" font-size="10" font-weight="600">Getting Started with React 19</text>
+  <text x="16" y="184" fill="#6b7280" font-family="system-ui" font-size="8">A comprehensive guide to the new features...</text>
+  <text x="16" y="202" fill="#818cf8" font-family="system-ui" font-size="8">Published - Mar 8, 2026</text>
+  <rect x="178" y="194" width="48" height="14" rx="7" fill="#22c55e" opacity="0.15"/>
+  <text x="202" y="204" text-anchor="middle" fill="#22c55e" font-family="system-ui" font-size="7">Live</text>
+
+  <!-- Article 2 -->
+  <rect x="0" y="216" width="240" height="58" fill="transparent"/>
+  <text x="16" y="236" fill="#d1d5db" font-family="system-ui" font-size="10" font-weight="600">CSS Grid vs Flexbox in 2026</text>
+  <text x="16" y="250" fill="#6b7280" font-family="system-ui" font-size="8">When to use which layout method...</text>
+  <text x="16" y="264" fill="#6b7280" font-family="system-ui" font-size="8">Draft - Mar 6, 2026</text>
+  <rect x="178" y="256" width="48" height="14" rx="7" fill="#f59e0b" opacity="0.15"/>
+  <text x="202" y="266" text-anchor="middle" fill="#f59e0b" font-family="system-ui" font-size="7">Draft</text>
+
+  <!-- Article 3 -->
+  <rect x="0" y="278" width="240" height="58" fill="transparent"/>
+  <text x="16" y="298" fill="#d1d5db" font-family="system-ui" font-size="10" font-weight="600">TypeScript 6.0 Deep Dive</text>
+  <text x="16" y="312" fill="#6b7280" font-family="system-ui" font-size="8">Breaking down every new feature...</text>
+  <text x="16" y="326" fill="#818cf8" font-family="system-ui" font-size="8">Published - Mar 2, 2026</text>
+  <rect x="178" y="318" width="48" height="14" rx="7" fill="#22c55e" opacity="0.15"/>
+  <text x="202" y="328" text-anchor="middle" fill="#22c55e" font-family="system-ui" font-size="7">Live</text>
+
+  <!-- Article 4 -->
+  <rect x="0" y="340" width="240" height="58" fill="transparent"/>
+  <text x="16" y="360" fill="#d1d5db" font-family="system-ui" font-size="10" font-weight="600">Building Design Systems</text>
+  <text x="16" y="374" fill="#6b7280" font-family="system-ui" font-size="8">From components to full systems...</text>
+  <text x="16" y="388" fill="#818cf8" font-family="system-ui" font-size="8">Published - Feb 28, 2026</text>
+
+  <!-- Article 5 -->
+  <rect x="0" y="402" width="240" height="48" fill="transparent"/>
+  <text x="16" y="420" fill="#d1d5db" font-family="system-ui" font-size="10" font-weight="600">Next.js 15 Performance Tips</text>
+  <text x="16" y="434" fill="#6b7280" font-family="system-ui" font-size="8">Optimize your Next.js applications...</text>
+
+  <!-- Divider -->
+  <rect x="240" y="74" width="1" height="376" fill="#1e2345"/>
+
+  <!-- Main Editor Area -->
+  <rect x="241" y="74" width="559" height="376" fill="#0c0f1a"/>
+
+  <!-- Editor Toolbar -->
+  <rect x="241" y="74" width="559" height="36" fill="#151929"/>
+  <!-- Format buttons -->
+  <text x="260" y="96" fill="#818cf8" font-family="system-ui" font-size="13" font-weight="bold">B</text>
+  <text x="284" y="96" fill="#6b7280" font-family="system-ui" font-size="13" font-style="italic">I</text>
+  <text x="305" y="96" fill="#6b7280" font-family="system-ui" font-size="13" text-decoration="underline">U</text>
+  <rect x="324" y="84" width="1" height="18" fill="#2d3050"/>
+  <text x="338" y="96" fill="#6b7280" font-family="system-ui" font-size="11">H1</text>
+  <text x="364" y="96" fill="#6b7280" font-family="system-ui" font-size="11">H2</text>
+  <text x="390" y="96" fill="#6b7280" font-family="system-ui" font-size="11">H3</text>
+  <rect x="412" y="84" width="1" height="18" fill="#2d3050"/>
+  <!-- List icons -->
+  <rect x="424" y="86" width="12" height="2" rx="1" fill="#6b7280"/>
+  <rect x="424" y="91" width="12" height="2" rx="1" fill="#6b7280"/>
+  <rect x="424" y="96" width="12" height="2" rx="1" fill="#6b7280"/>
+  <rect x="448" y="86" width="12" height="2" rx="1" fill="#6b7280"/>
+  <rect x="448" y="91" width="12" height="2" rx="1" fill="#6b7280"/>
+  <rect x="448" y="96" width="12" height="2" rx="1" fill="#6b7280"/>
+  <rect x="470" y="84" width="1" height="18" fill="#2d3050"/>
+  <text x="484" y="96" fill="#6b7280" font-family="system-ui" font-size="10">Link</text>
+  <text x="520" y="96" fill="#6b7280" font-family="system-ui" font-size="10">Image</text>
+  <text x="565" y="96" fill="#6b7280" font-family="system-ui" font-size="10">Code</text>
+
+  <!-- Article Title -->
+  <text x="280" y="138" fill="#e2e8f0" font-family="system-ui" font-size="22" font-weight="bold">Getting Started with React 19</text>
+
+  <!-- Meta info -->
+  <circle cx="290" cy="160" r="10" fill="#4f46e5"/>
+  <text x="290" y="164" text-anchor="middle" fill="white" font-family="system-ui" font-size="8">JD</text>
+  <text x="306" y="164" fill="#6b7280" font-family="system-ui" font-size="9">Jane Doe - March 8, 2026</text>
+  <rect x="440" y="154" width="60" height="16" rx="8" fill="#4f46e5" opacity="0.15"/>
+  <text x="470" y="166" text-anchor="middle" fill="#818cf8" font-family="system-ui" font-size="8">React</text>
+  <rect x="506" y="154" width="70" height="16" rx="8" fill="#4f46e5" opacity="0.15"/>
+  <text x="541" y="166" text-anchor="middle" fill="#818cf8" font-family="system-ui" font-size="8">JavaScript</text>
+
+  <!-- Cover Image Placeholder -->
+  <rect x="280" y="178" width="490" height="100" rx="8" fill="#151929"/>
+  <rect x="380" y="208" width="120" height="40" rx="6" fill="#1e2345"/>
+  <text x="440" y="232" text-anchor="middle" fill="#4f46e5" font-family="system-ui" font-size="11">Cover Image</text>
+  <rect x="510" y="216" width="60" height="18" rx="4" fill="#1e2345"/>
+
+  <!-- Article Content -->
+  <rect x="280" y="294" width="490" height="8" rx="4" fill="#1e2345"/>
+  <rect x="280" y="310" width="440" height="8" rx="4" fill="#1e2345"/>
+  <rect x="280" y="326" width="470" height="8" rx="4" fill="#1e2345"/>
+  <rect x="280" y="342" width="380" height="8" rx="4" fill="#1e2345"/>
+
+  <!-- Subheading -->
+  <rect x="280" y="366" width="200" height="10" rx="4" fill="#2d3050"/>
+
+  <rect x="280" y="386" width="490" height="8" rx="4" fill="#1e2345"/>
+  <rect x="280" y="402" width="460" height="8" rx="4" fill="#1e2345"/>
+  <rect x="280" y="418" width="490" height="8" rx="4" fill="#1e2345"/>
+  <rect x="280" y="434" width="320" height="8" rx="4" fill="#1e2345"/>
+
+  <!-- Right Sidebar - Post Settings -->
+  <rect x="715" y="110" width="80" height="165" rx="6" fill="#151929"/>
+  <text x="725" y="130" fill="#e2e8f0" font-family="system-ui" font-size="8" font-weight="bold">Settings</text>
+  <text x="725" y="148" fill="#6b7280" font-family="system-ui" font-size="7">Category</text>
+  <rect x="723" y="152" width="64" height="14" rx="4" fill="#1e2345"/>
+  <text x="728" y="162" fill="#94a3b8" font-family="system-ui" font-size="7">React</text>
+  <text x="725" y="182" fill="#6b7280" font-family="system-ui" font-size="7">Status</text>
+  <rect x="723" y="186" width="64" height="14" rx="4" fill="#22c55e" opacity="0.15"/>
+  <text x="755" y="196" text-anchor="middle" fill="#22c55e" font-family="system-ui" font-size="7">Published</text>
+  <text x="725" y="214" fill="#6b7280" font-family="system-ui" font-size="7">SEO Score</text>
+  <rect x="723" y="218" width="64" height="6" rx="3" fill="#1e2345"/>
+  <rect x="723" y="218" width="52" height="6" rx="3" fill="#22c55e"/>
+  <text x="725" y="236" fill="#22c55e" font-family="system-ui" font-size="7">Good (82/100)</text>
+  <text x="725" y="254" fill="#6b7280" font-family="system-ui" font-size="7">Views</text>
+  <text x="725" y="268" fill="#818cf8" font-family="system-ui" font-size="10" font-weight="bold">3,847</text>
+</svg>

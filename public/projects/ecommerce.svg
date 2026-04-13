@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="ec-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+    <linearGradient id="ec-btn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <!-- Browser Chrome -->
+  <rect width="800" height="450" rx="8" fill="#1a1a2e"/>
+  <rect width="800" height="32" rx="8" fill="#2d2d44"/>
+  <rect x="0" y="24" width="800" height="8" fill="#2d2d44"/>
+  <circle cx="16" cy="16" r="5" fill="#ff5f57"/>
+  <circle cx="34" cy="16" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="16" r="5" fill="#28c840"/>
+  <rect x="200" y="8" width="400" height="18" rx="9" fill="#1a1a2e" opacity="0.6"/>
+  <text x="400" y="21" text-anchor="middle" fill="#888" font-family="system-ui" font-size="9">shopverse.store/dashboard</text>
+
+  <!-- Top Nav Bar -->
+  <rect x="0" y="32" width="800" height="44" fill="#252547"/>
+  <text x="24" y="59" fill="#a78bfa" font-family="system-ui" font-weight="bold" font-size="16">ShopVerse</text>
+  <!-- Search Bar -->
+  <rect x="160" y="42" width="320" height="26" rx="13" fill="#1a1a2e"/>
+  <text x="180" y="59" fill="#666" font-family="system-ui" font-size="11">Search products, categories...</text>
+  <!-- Nav Icons -->
+  <circle cx="540" cy="55" r="10" fill="none" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="537" y="59" fill="#7c3aed" font-family="system-ui" font-size="10">?</text>
+  <!-- Cart Icon -->
+  <rect x="570" y="47" width="16" height="12" rx="2" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="573" y1="59" x2="573" y2="63" stroke="#a78bfa" stroke-width="1.5"/>
+  <line x1="583" y1="59" x2="583" y2="63" stroke="#a78bfa" stroke-width="1.5"/>
+  <circle cx="590" cy="48" r="7" fill="#7c3aed"/>
+  <text x="590" y="51" text-anchor="middle" fill="white" font-family="system-ui" font-size="8" font-weight="bold">3</text>
+  <!-- User Avatar -->
+  <circle cx="620" cy="55" r="12" fill="#7c3aed"/>
+  <text x="620" y="59" text-anchor="middle" fill="white" font-family="system-ui" font-size="10">M</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="76" width="160" height="374" fill="#1e1b4b"/>
+  <rect x="0" y="84" width="160" height="32" fill="#7c3aed" opacity="0.2"/>
+  <rect x="12" y="92" width="14" height="14" rx="3" fill="#7c3aed" opacity="0.5"/>
+  <text x="36" y="103" fill="#a78bfa" font-family="system-ui" font-size="11" font-weight="600">Dashboard</text>
+  <rect x="12" y="124" width="14" height="14" rx="3" fill="#4a4a6a" opacity="0.3"/>
+  <text x="36" y="135" fill="#8888aa" font-family="system-ui" font-size="11">Products</text>
+  <rect x="12" y="152" width="14" height="14" rx="3" fill="#4a4a6a" opacity="0.3"/>
+  <text x="36" y="163" fill="#8888aa" font-family="system-ui" font-size="11">Orders</text>
+  <rect x="12" y="180" width="14" height="14" rx="3" fill="#4a4a6a" opacity="0.3"/>
+  <text x="36" y="191" fill="#8888aa" font-family="system-ui" font-size="11">Customers</text>
+  <rect x="12" y="208" width="14" height="14" rx="3" fill="#4a4a6a" opacity="0.3"/>
+  <text x="36" y="219" fill="#8888aa" font-family="system-ui" font-size="11">Analytics</text>
+  <rect x="12" y="236" width="14" height="14" rx="3" fill="#4a4a6a" opacity="0.3"/>
+  <text x="36" y="247" fill="#8888aa" font-family="system-ui" font-size="11">Settings</text>
+
+  <!-- Main Content Area -->
+  <!-- Stats Cards Row -->
+  <rect x="172" y="84" width="145" height="68" rx="8" fill="#252547"/>
+  <text x="184" y="104" fill="#888" font-family="system-ui" font-size="10">Total Revenue</text>
+  <text x="184" y="126" fill="#e0e0ff" font-family="system-ui" font-size="20" font-weight="bold">$48,290</text>
+  <text x="280" y="126" fill="#28c840" font-family="system-ui" font-size="9">+12.5%</text>
+
+  <rect x="325" y="84" width="145" height="68" rx="8" fill="#252547"/>
+  <text x="337" y="104" fill="#888" font-family="system-ui" font-size="10">Orders</text>
+  <text x="337" y="126" fill="#e0e0ff" font-family="system-ui" font-size="20" font-weight="bold">1,284</text>
+  <text x="410" y="126" fill="#28c840" font-family="system-ui" font-size="9">+8.2%</text>
+
+  <rect x="478" y="84" width="145" height="68" rx="8" fill="#252547"/>
+  <text x="490" y="104" fill="#888" font-family="system-ui" font-size="10">Customers</text>
+  <text x="490" y="126" fill="#e0e0ff" font-family="system-ui" font-size="20" font-weight="bold">3,462</text>
+
+  <rect x="631" y="84" width="145" height="68" rx="8" fill="#252547"/>
+  <text x="643" y="104" fill="#888" font-family="system-ui" font-size="10">Conversion</text>
+  <text x="643" y="126" fill="#e0e0ff" font-family="system-ui" font-size="20" font-weight="bold">3.24%</text>
+
+  <!-- Section Header -->
+  <text x="172" y="178" fill="#e0e0ff" font-family="system-ui" font-size="14" font-weight="bold">Popular Products</text>
+  <rect x="700" y="164" width="76" height="24" rx="12" fill="url(#ec-btn)"/>
+  <text x="738" y="180" text-anchor="middle" fill="white" font-family="system-ui" font-size="10">+ Add New</text>
+
+  <!-- Product Grid -->
+  <!-- Product 1 -->
+  <rect x="172" y="192" width="145" height="170" rx="8" fill="#252547"/>
+  <rect x="180" y="200" width="129" height="80" rx="6" fill="#3b3b6b"/>
+  <rect x="210" y="220" width="70" height="40" rx="4" fill="#7c3aed" opacity="0.3"/>
+  <text x="245" y="244" text-anchor="middle" fill="#a78bfa" font-family="system-ui" font-size="10">IMG</text>
+  <text x="184" y="300" fill="#e0e0ff" font-family="system-ui" font-size="11" font-weight="600">Wireless Earbuds</text>
+  <text x="184" y="316" fill="#a78bfa" font-family="system-ui" font-size="13" font-weight="bold">$79.99</text>
+  <rect x="255" y="304" width="50" height="18" rx="9" fill="#7c3aed" opacity="0.2"/>
+  <text x="280" y="316" text-anchor="middle" fill="#a78bfa" font-family="system-ui" font-size="8">In Stock</text>
+  <text x="184" y="340" fill="#666" font-family="system-ui" font-size="9">342 sold</text>
+  <!-- Rating Stars -->
+  <text x="250" y="340" fill="#ffbd2e" font-family="system-ui" font-size="9">*****</text>
+
+  <!-- Product 2 -->
+  <rect x="325" y="192" width="145" height="170" rx="8" fill="#252547"/>
+  <rect x="333" y="200" width="129" height="80" rx="6" fill="#3b3b6b"/>
+  <rect x="363" y="220" width="70" height="40" rx="4" fill="#3b82f6" opacity="0.3"/>
+  <text x="398" y="244" text-anchor="middle" fill="#60a5fa" font-family="system-ui" font-size="10">IMG</text>
+  <text x="337" y="300" fill="#e0e0ff" font-family="system-ui" font-size="11" font-weight="600">Smart Watch</text>
+  <text x="337" y="316" fill="#a78bfa" font-family="system-ui" font-size="13" font-weight="bold">$199.99</text>
+  <rect x="418" y="304" width="50" height="18" rx="9" fill="#7c3aed" opacity="0.2"/>
+  <text x="443" y="316" text-anchor="middle" fill="#a78bfa" font-family="system-ui" font-size="8">In Stock</text>
+  <text x="337" y="340" fill="#666" font-family="system-ui" font-size="9">218 sold</text>
+  <text x="403" y="340" fill="#ffbd2e" font-family="system-ui" font-size="9">*****</text>
+
+  <!-- Product 3 -->
+  <rect x="478" y="192" width="145" height="170" rx="8" fill="#252547"/>
+  <rect x="486" y="200" width="129" height="80" rx="6" fill="#3b3b6b"/>
+  <rect x="516" y="220" width="70" height="40" rx="4" fill="#a78bfa" opacity="0.3"/>
+  <text x="551" y="244" text-anchor="middle" fill="#c4b5fd" font-family="system-ui" font-size="10">IMG</text>
+  <text x="490" y="300" fill="#e0e0ff" font-family="system-ui" font-size="11" font-weight="600">Laptop Stand</text>
+  <text x="490" y="316" fill="#a78bfa" font-family="system-ui" font-size="13" font-weight="bold">$49.99</text>
+  <rect x="568" y="304" width="50" height="18" rx="9" fill="#ef4444" opacity="0.2"/>
+  <text x="593" y="316" text-anchor="middle" fill="#ef4444" font-family="system-ui" font-size="8">Low</text>
+  <text x="490" y="340" fill="#666" font-family="system-ui" font-size="9">156 sold</text>
+  <text x="556" y="340" fill="#ffbd2e" font-family="system-ui" font-size="9">****</text>
+
+  <!-- Product 4 -->
+  <rect x="631" y="192" width="145" height="170" rx="8" fill="#252547"/>
+  <rect x="639" y="200" width="129" height="80" rx="6" fill="#3b3b6b"/>
+  <rect x="669" y="220" width="70" height="40" rx="4" fill="#6366f1" opacity="0.3"/>
+  <text x="704" y="244" text-anchor="middle" fill="#818cf8" font-family="system-ui" font-size="10">IMG</text>
+  <text x="643" y="300" fill="#e0e0ff" font-family="system-ui" font-size="11" font-weight="600">USB-C Hub</text>
+  <text x="643" y="316" fill="#a78bfa" font-family="system-ui" font-size="13" font-weight="bold">$34.99</text>
+  <rect x="721" y="304" width="50" height="18" rx="9" fill="#7c3aed" opacity="0.2"/>
+  <text x="746" y="316" text-anchor="middle" fill="#a78bfa" font-family="system-ui" font-size="8">In Stock</text>
+  <text x="643" y="340" fill="#666" font-family="system-ui" font-size="9">489 sold</text>
+  <text x="709" y="340" fill="#ffbd2e" font-family="system-ui" font-size="9">*****</text>
+
+  <!-- Recent Orders Table -->
+  <text x="172" y="390" fill="#e0e0ff" font-family="system-ui" font-size="14" font-weight="bold">Recent Orders</text>
+  <rect x="172" y="400" width="604" height="24" rx="4" fill="#252547"/>
+  <text x="184" y="416" fill="#888" font-family="system-ui" font-size="9">Order #1042</text>
+  <text x="320" y="416" fill="#ccc" font-family="system-ui" font-size="9">Wireless Earbuds x2</text>
+  <text x="520" y="416" fill="#28c840" font-family="system-ui" font-size="9">Delivered</text>
+  <text x="680" y="416" fill="#a78bfa" font-family="system-ui" font-size="9" font-weight="bold">$159.98</text>
+
+  <rect x="172" y="428" width="604" height="22" rx="4" fill="#1e1b4b" opacity="0.3"/>
+  <text x="184" y="443" fill="#888" font-family="system-ui" font-size="9">Order #1041</text>
+  <text x="320" y="443" fill="#ccc" font-family="system-ui" font-size="9">Smart Watch x1</text>
+  <text x="520" y="443" fill="#ffbd2e" font-family="system-ui" font-size="9">Shipping</text>
+  <text x="680" y="443" fill="#a78bfa" font-family="system-ui" font-size="9" font-weight="bold">$199.99</text>
+</svg>

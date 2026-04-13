@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="rs-warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </linearGradient>
+    <linearGradient id="rs-btn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="rs-hero" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#451a03" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Browser Chrome -->
+  <rect width="800" height="450" rx="8" fill="#1c1917"/>
+  <rect width="800" height="32" rx="8" fill="#292524"/>
+  <rect x="0" y="24" width="800" height="8" fill="#292524"/>
+  <circle cx="16" cy="16" r="5" fill="#ff5f57"/>
+  <circle cx="34" cy="16" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="16" r="5" fill="#28c840"/>
+  <rect x="200" y="8" width="400" height="18" rx="9" fill="#1c1917" opacity="0.6"/>
+  <text x="400" y="21" text-anchor="middle" fill="#888" font-family="system-ui" font-size="9">bellacucina.restaurant</text>
+
+  <!-- Navigation -->
+  <rect x="0" y="32" width="800" height="48" fill="#1c1917" opacity="0.95"/>
+  <text x="40" y="62" fill="#fbbf24" font-family="Georgia, serif" font-weight="bold" font-size="18" font-style="italic">Bella Cucina</text>
+  <text x="360" y="60" fill="#a8a29e" font-family="system-ui" font-size="11">Home</text>
+  <text x="420" y="60" fill="#fbbf24" font-family="system-ui" font-size="11" font-weight="600">Menu</text>
+  <text x="475" y="60" fill="#a8a29e" font-family="system-ui" font-size="11">About</text>
+  <text x="530" y="60" fill="#a8a29e" font-family="system-ui" font-size="11">Gallery</text>
+  <text x="590" y="60" fill="#a8a29e" font-family="system-ui" font-size="11">Events</text>
+  <rect x="660" y="46" width="110" height="30" rx="15" fill="url(#rs-btn)"/>
+  <text x="715" y="65" text-anchor="middle" fill="#1c1917" font-family="system-ui" font-size="11" font-weight="bold">Reserve Table</text>
+
+  <!-- Hero Section -->
+  <rect x="0" y="80" width="800" height="140" fill="#292018"/>
+  <rect x="0" y="80" width="800" height="140" fill="url(#rs-hero)"/>
+  <!-- Decorative food placeholder shapes -->
+  <circle cx="650" cy="140" r="50" fill="#3d2814" opacity="0.5"/>
+  <circle cx="650" cy="140" r="35" fill="#4a3320" opacity="0.5"/>
+  <circle cx="720" cy="160" r="30" fill="#3d2814" opacity="0.4"/>
+  <text x="40" y="128" fill="#fef3c7" font-family="Georgia, serif" font-size="24" font-weight="bold">Our Menu</text>
+  <text x="40" y="152" fill="#a8a29e" font-family="system-ui" font-size="12">Crafted with passion, served with love</text>
+  <!-- Category pills -->
+  <rect x="40" y="170" width="70" height="26" rx="13" fill="#d97706"/>
+  <text x="75" y="187" text-anchor="middle" fill="white" font-family="system-ui" font-size="10" font-weight="600">All</text>
+  <rect x="118" y="170" width="80" height="26" rx="13" fill="#292524"/>
+  <text x="158" y="187" text-anchor="middle" fill="#a8a29e" font-family="system-ui" font-size="10">Starters</text>
+  <rect x="206" y="170" width="70" height="26" rx="13" fill="#292524"/>
+  <text x="241" y="187" text-anchor="middle" fill="#a8a29e" font-family="system-ui" font-size="10">Mains</text>
+  <rect x="284" y="170" width="70" height="26" rx="13" fill="#292524"/>
+  <text x="319" y="187" text-anchor="middle" fill="#a8a29e" font-family="system-ui" font-size="10">Pasta</text>
+  <rect x="362" y="170" width="70" height="26" rx="13" fill="#292524"/>
+  <text x="397" y="187" text-anchor="middle" fill="#a8a29e" font-family="system-ui" font-size="10">Desserts</text>
+  <rect x="440" y="170" width="70" height="26" rx="13" fill="#292524"/>
+  <text x="475" y="187" text-anchor="middle" fill="#a8a29e" font-family="system-ui" font-size="10">Drinks</text>
+
+  <!-- Menu Items Grid -->
+  <!-- Item 1 -->
+  <rect x="24" y="228" width="240" height="100" rx="8" fill="#292524"/>
+  <rect x="32" y="236" width="80" height="80" rx="6" fill="#3d2814"/>
+  <circle cx="72" cy="272" r="24" fill="#4a3320"/>
+  <circle cx="72" cy="272" r="14" fill="#5c3d1e" opacity="0.6"/>
+  <text x="122" y="254" fill="#fef3c7" font-family="system-ui" font-size="12" font-weight="600">Truffle Risotto</text>
+  <text x="122" y="270" fill="#a8a29e" font-family="system-ui" font-size="9">Wild mushroom, aged parmesan</text>
+  <text x="122" y="286" fill="#a8a29e" font-family="system-ui" font-size="9">truffle oil, fresh herbs</text>
+  <text x="122" y="308" fill="#fbbf24" font-family="system-ui" font-size="14" font-weight="bold">$24</text>
+  <rect x="200" y="296" width="52" height="22" rx="11" fill="#d97706"/>
+  <text x="226" y="311" text-anchor="middle" fill="white" font-family="system-ui" font-size="9">Order</text>
+
+  <!-- Item 2 -->
+  <rect x="280" y="228" width="240" height="100" rx="8" fill="#292524"/>
+  <rect x="288" y="236" width="80" height="80" rx="6" fill="#3d2814"/>
+  <rect x="300" y="250" width="56" height="52" rx="4" fill="#4a3320"/>
+  <rect x="308" y="258" width="40" height="12" rx="2" fill="#5c3d1e" opacity="0.6"/>
+  <rect x="308" y="274" width="40" height="20" rx="2" fill="#5c3d1e" opacity="0.4"/>
+  <text x="378" y="254" fill="#fef3c7" font-family="system-ui" font-size="12" font-weight="600">Wagyu Steak</text>
+  <text x="378" y="270" fill="#a8a29e" font-family="system-ui" font-size="9">Grade A5, roasted vegetables</text>
+  <text x="378" y="286" fill="#a8a29e" font-family="system-ui" font-size="9">red wine reduction</text>
+  <text x="378" y="308" fill="#fbbf24" font-family="system-ui" font-size="14" font-weight="bold">$58</text>
+  <rect x="456" y="296" width="52" height="22" rx="11" fill="#d97706"/>
+  <text x="482" y="311" text-anchor="middle" fill="white" font-family="system-ui" font-size="9">Order</text>
+
+  <!-- Item 3 -->
+  <rect x="536" y="228" width="240" height="100" rx="8" fill="#292524"/>
+  <rect x="544" y="236" width="80" height="80" rx="6" fill="#3d2814"/>
+  <circle cx="584" cy="270" r="26" fill="#4a3320"/>
+  <circle cx="584" cy="270" r="16" fill="#5c3d1e" opacity="0.5"/>
+  <circle cx="584" cy="270" r="8" fill="#6b4c28" opacity="0.4"/>
+  <text x="634" y="254" fill="#fef3c7" font-family="system-ui" font-size="12" font-weight="600">Tiramisu</text>
+  <text x="634" y="270" fill="#a8a29e" font-family="system-ui" font-size="9">Classic Italian, mascarpone</text>
+  <text x="634" y="286" fill="#a8a29e" font-family="system-ui" font-size="9">espresso soaked ladyfingers</text>
+  <text x="634" y="308" fill="#fbbf24" font-family="system-ui" font-size="14" font-weight="bold">$14</text>
+  <rect x="712" y="296" width="52" height="22" rx="11" fill="#d97706"/>
+  <text x="738" y="311" text-anchor="middle" fill="white" font-family="system-ui" font-size="9">Order</text>
+
+  <!-- Item 4 -->
+  <rect x="24" y="338" width="240" height="100" rx="8" fill="#292524"/>
+  <rect x="32" y="346" width="80" height="80" rx="6" fill="#3d2814"/>
+  <ellipse cx="72" cy="382" rx="28" ry="18" fill="#4a3320"/>
+  <rect x="56" y="370" width="32" height="8" rx="2" fill="#5c3d1e" opacity="0.5"/>
+  <text x="122" y="364" fill="#fef3c7" font-family="system-ui" font-size="12" font-weight="600">Bruschetta</text>
+  <text x="122" y="380" fill="#a8a29e" font-family="system-ui" font-size="9">Fresh tomato, basil, garlic</text>
+  <text x="122" y="396" fill="#a8a29e" font-family="system-ui" font-size="9">extra virgin olive oil</text>
+  <text x="122" y="418" fill="#fbbf24" font-family="system-ui" font-size="14" font-weight="bold">$12</text>
+  <rect x="200" y="406" width="52" height="22" rx="11" fill="#d97706"/>
+  <text x="226" y="421" text-anchor="middle" fill="white" font-family="system-ui" font-size="9">Order</text>
+
+  <!-- Item 5 -->
+  <rect x="280" y="338" width="240" height="100" rx="8" fill="#292524"/>
+  <rect x="288" y="346" width="80" height="80" rx="6" fill="#3d2814"/>
+  <rect x="302" y="360" width="52" height="36" rx="6" fill="#4a3320"/>
+  <rect x="310" y="400" width="36" height="10" rx="3" fill="#5c3d1e" opacity="0.4"/>
+  <text x="378" y="364" fill="#fef3c7" font-family="system-ui" font-size="12" font-weight="600">Lobster Ravioli</text>
+  <text x="378" y="380" fill="#a8a29e" font-family="system-ui" font-size="9">Hand-made pasta, saffron</text>
+  <text x="378" y="396" fill="#a8a29e" font-family="system-ui" font-size="9">cream sauce</text>
+  <text x="378" y="418" fill="#fbbf24" font-family="system-ui" font-size="14" font-weight="bold">$32</text>
+  <rect x="456" y="406" width="52" height="22" rx="11" fill="#d97706"/>
+  <text x="482" y="421" text-anchor="middle" fill="white" font-family="system-ui" font-size="9">Order</text>
+
+  <!-- Item 6 -->
+  <rect x="536" y="338" width="240" height="100" rx="8" fill="#292524"/>
+  <rect x="544" y="346" width="80" height="80" rx="6" fill="#3d2814"/>
+  <circle cx="584" cy="380" r="22" fill="#4a3320"/>
+  <rect x="568" y="374" width="32" height="12" rx="3" fill="#5c3d1e" opacity="0.5"/>
+  <text x="634" y="364" fill="#fef3c7" font-family="system-ui" font-size="12" font-weight="600">Margherita Pizza</text>
+  <text x="634" y="380" fill="#a8a29e" font-family="system-ui" font-size="9">San Marzano, mozzarella</text>
+  <text x="634" y="396" fill="#a8a29e" font-family="system-ui" font-size="9">fresh basil, wood-fired</text>
+  <text x="634" y="418" fill="#fbbf24" font-family="system-ui" font-size="14" font-weight="bold">$18</text>
+  <rect x="712" y="406" width="52" height="22" rx="11" fill="#d97706"/>
+  <text x="738" y="421" text-anchor="middle" fill="white" font-family="system-ui" font-size="9">Order</text>
+</svg>
